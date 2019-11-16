@@ -1,0 +1,11 @@
+for creating vlan 
+vlan #number ex. vlan 10
+
+adding port to VLAN(interface #port)
+switchport mode access
+switchport access vlan #number
+
+trunk(interface #port)
+switchport mode trunk 
+switchport nonegotiate
+switchport trunk allowed vlan 2-21

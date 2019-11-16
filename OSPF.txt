@@ -1,0 +1,5 @@
+Router1#conf t
+Router1(config)#router ospf 1
+Router1(config-router)#network 192.168.55.2 0.0.0.255 area 0
+Router1(config-router)#network 172.16.10.0 0.0.0.255 area 0
+Router1(config-router)#exit
